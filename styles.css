@@ -1,0 +1,23 @@
+.calculator {
+    width: 320px;
+}
+
+.display {
+    font-family: monospace;
+}
+
+.btn {
+    @apply bg-gray-300 p-4 rounded text-center text-lg font-medium hover:bg-gray-400 transition;
+}
+
+.btn-operator {
+    @apply bg-blue-500 text-white hover:bg-blue-600;
+}
+
+.btn-clear {
+    @apply bg-red-500 text-white hover:bg-red-600;
+}
+
+.btn-equal {
+    @apply bg-green-500 text-white hover:bg-green-600;
+}
